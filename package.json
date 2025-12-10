@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-cafe-demo-2025-html-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IhorKuzmenko/portfolio-cafe-demo-2025-html-css-js.git"
+  },
+  "keywords": [],
+  "author": "Ihor Kuzmenko <nameless1306@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IhorKuzmenko/portfolio-cafe-demo-2025-html-css-js/issues"
+  },
+  "homepage": "https://github.com/IhorKuzmenko/portfolio-cafe-demo-2025-html-css-js#readme",
+  "devDependencies": {
+    "vite": "^7.2.7"
+  }
+}
