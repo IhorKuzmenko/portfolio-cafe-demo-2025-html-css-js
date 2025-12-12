@@ -1,0 +1,830 @@
+{
+  "drinks": {
+    "beersBottle": [
+      {
+        "name": "Hoegaarden Rosee",
+        "price": "$4",
+        "country": "BE",
+        "volume": "bottle",
+        "alt": "Hoegaarden Rose",
+        "photo": "https://content.okwine.ua/files/product/61b3453d6ebb0c2d53db75a5/212a01a0-5fc1-11eb-8a19-71df0a978c4e.jpg.jpg",
+        "description": "Hoegaarden Rosee is a Belgian wheat beer infused with natural rosehip extracts, giving it a delicate pink hue and a fragrant, fruity aroma. Its taste combines subtle citrus notes with a light, refreshing sweetness, making it perfect for summer evenings or as an aperitif.",
+        "calories": "150 kcal"
+      },
+      {
+        "name": "Kruger Export",
+        "price": "$5",
+        "country": "BE",
+        "volume": "bottle",
+        "alt": "Kruger Export",
+        "photo": "https://drankencentrale-nuelant.drinxit.be/images/thumbs/0006112_kruger-export-33cl_510.jpg",
+        "description": "Kruger Export is a classic Belgian lager with a smooth and well-balanced malt profile. It has a light golden color, a gentle hop bitterness, and a crisp, clean finish. This beer is ideal for casual drinking and pairs well with light snacks and grilled dishes.",
+        "calories": "160 kcal"
+      },
+      {
+        "name": "Rhino Pale Ale",
+        "price": "$7",
+        "country": "IN",
+        "volume": "bottle",
+        "alt": "Rhino Pale Ale",
+        "photo": "https://www.inn-express.com/images/ww/product/14992.jpg",
+        "description": "Rhino Pale Ale is an Indian Pale Ale featuring bold hop flavors balanced by a smooth malt backbone. Expect aromas of tropical fruits, citrus, and a touch of floral notes. The moderate bitterness and medium body make it an excellent choice for hop lovers seeking complexity and refreshment.",
+        "calories": "180 kcal"
+      },
+      {
+        "name": "Irish Guinness",
+        "price": "$6",
+        "country": "IE",
+        "volume": "bottle",
+        "alt": "Irish Guinness",
+        "photo": "https://images.squarespace-cdn.com/content/v1/59c3feb149fc2b152179e47e/a2b70869-df17-42c4-94ce-b7e362bc19c2/Guinness.jpeg",
+        "description": "Irish Guinness is a world-famous stout known for its deep, dark color and creamy, velvety texture. It offers a rich roasted malt aroma with hints of coffee and chocolate. Smooth and slightly bitter, Guinness is perfect for pairing with hearty foods or enjoying on its own as a full-flavored experience.",
+        "calories": "210 kcal"
+      },
+      {
+        "name": "Corona Extra",
+        "price": "$3",
+        "country": "MX",
+        "volume": "bottle",
+        "alt": "Corona Extra",
+        "photo": "https://icdn.bottlenose.wine/images/full/602318.jpg?min-w=200&min-h=200&fit=crop",
+        "description": "Corona Extra is a light Mexican lager with a crisp, clean taste and a pale golden color. It has mild malt sweetness, subtle hop bitterness, and a refreshing finish. Often served with a lime wedge, Corona is ideal for hot days, beach outings, or casual gatherings.",
+        "calories": "148 kcal"
+      }
+    ],
+    "draftBeers": [
+      {
+        "name": "Michelob Ultra",
+        "price": "$8",
+        "country": "USA",
+        "volume": "570 ml",
+        "alt": "Michelob Ultra",
+        "photo": "https://i.ytimg.com/vi/oHPThFCxzUM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDgVzzSb1gjAwEiDNc4QtspyT5BUg",
+        "description": "Michelob Ultra is a light American lager with a crisp, clean taste and very low carbohydrate content. It has subtle malt sweetness with a gentle hop aroma and a refreshing finish, ideal for active lifestyles and casual drinking.",
+        "calories": "95 kcal"
+      },
+      {
+        "name": "Bud Light",
+        "price": "$8",
+        "country": "USA",
+        "volume": "570 ml",
+        "alt": "Bud Light",
+        "photo": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1005698442-copy.jpg?c=original",
+        "description": "Bud Light is a popular American light lager with a smooth and refreshing flavor. It has mild malt character, low bitterness, and a clean finish, making it an easy-drinking beer for social events and casual settings.",
+        "calories": "110 kcal"
+      },
+      {
+        "name": "Pilsner Urquell",
+        "price": "$9",
+        "country": "CR",
+        "volume": "pint",
+        "alt": "Pilsner Urquell",
+        "photo": "https://mybeerdealer.com.au/cdn/shop/files/Pilsner_Urquell_1800x.heic?v=1759227056",
+        "description": "Pilsner Urquell is the original Czech pilsner, renowned for its golden color, rich malt aroma, and distinctive hop bitterness. It has a crisp, slightly sweet flavor with a smooth, refreshing finish, perfect for pairing with hearty dishes or enjoying on its own.",
+        "calories": "150 kcal"
+      },
+      {
+        "name": "Guinness Draught",
+        "price": "$10",
+        "country": "IE",
+        "volume": "pint",
+        "alt": "Guinness Draught",
+        "photo": "https://images.ctfassets.net/8nq3bs98o7cv/3kLzJIBWgSjX9OtgbBqHeV/2de453a248863aaaa314e8eff5b50bc0/guinness-can-and-pint.jpeg",
+        "description": "Guinness Draught is the iconic Irish stout, famous for its dark color, creamy texture, and roasted malt flavors. It offers hints of coffee and chocolate with a smooth, slightly bitter finish, making it a perfect companion to rich dishes or relaxing evenings.",
+        "calories": "210 kcal"
+      },
+      {
+        "name": "Carlton Draught",
+        "price": "$8",
+        "country": "AU",
+        "volume": "pint",
+        "alt": "Carlton Draught",
+        "photo": "https://m.media-amazon.com/images/I/71qQlrmqM4L.jpg",
+        "description": "Carlton Draught is a classic Australian lager known for its bright golden color and balanced flavor. It has light malt sweetness, gentle hop bitterness, and a clean, crisp finish. Perfect for barbecues, social gatherings, and casual enjoyment.",
+        "calories": "140 kcal"
+      }
+    ],
+    "nonAlcoholicBeers": [
+      {
+        "name": "Heineken 0.0",
+        "price": "$3",
+        "country": "NL",
+        "volume": "330 ml",
+        "alt": "Heineken 0.0",
+        "photo": "https://www.heineken.com/media/jjee3wih/heineken-00-bottle.png",
+        "description": "Heineken 0.0 is a non-alcoholic lager that delivers the classic Heineken taste without the alcohol. It features a balanced maltiness with subtle hop bitterness and a crisp, refreshing finish.",
+        "calories": "69 kcal"
+      },
+      {
+        "name": "Corona Cero 0.0",
+        "price": "$3",
+        "country": "MX",
+        "volume": "330 ml",
+        "alt": "Corona Cero 0.0",
+        "photo": "https://spiritstore.co.uk/media/catalog/product/cache/6/thumbnail/774x2560/17f82f742ffe127f42dca9de82fb58b1/c/o/corona_cero.jpg",
+        "description": "Corona Cero 0.0 is a light and refreshing non-alcoholic beer from Mexico. It maintains the crisp and mild flavor of the original Corona, with subtle citrus notes, perfect for enjoying any time of the day.",
+        "calories": "80 kcal"
+      },
+      {
+        "name": "Budweiser Zero",
+        "price": "$2",
+        "country": "USA",
+        "volume": "355 ml",
+        "alt": "Budweiser Zero",
+        "photo": "https://upsidedrinks.com/cdn/shop/files/Gabarits_ec3c9bbd-ecec-471f-8d6f-b81c5c71c789.png?v=1722630109",
+        "description": "Budweiser Zero is a non-alcoholic version of the classic Budweiser lager. It features smooth malt flavors, light hop aroma, and a clean, crisp finish, making it ideal for social occasions without alcohol.",
+        "calories": "70 kcal"
+      },
+      {
+        "name": "Athletic Brewing Co. Free Wave",
+        "price": "$3",
+        "country": "USA",
+        "volume": "bank",
+        "alt": "Athletic Brewing Co. Free Wave",
+        "photo": "https://cdn.shopify.com/s/files/1/0705/8030/6138/files/AthleticBrewingCo_-FreeWaveNon-AlcoholicHazyIPA6pack_webp.png?v=1730997368",
+        "description": "Athletic Brewing Co. Free Wave is a non-alcoholic hazy IPA with tropical fruit aromas, a smooth mouthfeel, and balanced bitterness. Perfect for craft beer lovers seeking flavor without alcohol.",
+        "calories": "95 kcal"
+      },
+      {
+        "name": "Clausthaler Original (Non-Alcoholic)",
+        "price": "$2",
+        "country": "DE",
+        "volume": "500 ml",
+        "alt": "Clausthaler Original (Non-Alcoholic)",
+        "photo": "https://pivasov.ua/components/com_jshopping/files/img_products/full_clausthaler-original.jpg",
+        "description": "Clausthaler Original is a premium German non-alcoholic beer with rich malt character, mild hop bitterness, and a smooth, satisfying finish. Ideal for those seeking a traditional beer taste without alcohol.",
+        "calories": "90 kcal"
+      }
+    ],
+    "nonAlcoholicCocktails": [
+      {
+        "name": "Shirley Temple",
+        "price": "$9",
+        "country": "US",
+        "volume": "250 ml",
+        "alt": "Shirley Temple",
+        "photo": "https://shuba.life/static/content/thumbs/1824x912/3/e5/4rbnqr---c2x1x50px50p-up--48f20b7b5f88b729e41c8652fa063e53.jpg",
+        "description": "Shirley Temple is a classic non-alcoholic cocktail made with ginger ale, grenadine, and a splash of orange juice. Garnished with a maraschino cherry, it’s sweet, fizzy, and refreshing.",
+        "calories": "120 kcal"
+      },
+      {
+        "name": "Virgin Mojito",
+        "price": "$10",
+        "country": "CU",
+        "volume": "300 ml",
+        "alt": "Virgin Mojito",
+        "photo": "https://alekasgettogether.com/wp-content/uploads/2023/08/mojito-mocktail.jpg",
+        "description": "Virgin Mojito is a refreshing mocktail combining fresh mint leaves, lime juice, sugar, and soda water. It has a bright, citrusy flavor with a cool minty finish, perfect for warm days.",
+        "calories": "90 kcal"
+      },
+      {
+        "name": "Virgin Pina Colada",
+        "price": "$11",
+        "country": "PR",
+        "volume": "300 ml",
+        "alt": "Virgin Pina Colada",
+        "photo": "https://easygoodideas.com/wp-content/uploads/2024/08/virgin-pina-colada-1.jpg",
+        "description": "Virgin Pina Colada is a tropical blend of pineapple juice, coconut cream, and crushed ice. Sweet and creamy with a tropical aroma, it captures the classic flavor of a pina colada without alcohol.",
+        "calories": "180 kcal"
+      },
+      {
+        "name": "Arnold Palmer",
+        "price": "$8",
+        "country": "US",
+        "volume": "350 ml",
+        "alt": "Arnold Palmer",
+        "photo": "https://ru.inshaker.com/ckeditor_assets/pictures/7493/original_1.jpg",
+        "description": "Arnold Palmer is a refreshing mix of iced tea and lemonade, offering a perfect balance of sweet and tart flavors. It’s a classic non-alcoholic drink ideal for quenching thirst on a hot day.",
+        "calories": "110 kcal"
+      },
+      {
+        "name": "Cranberry Ginger Fizz",
+        "price": "$12",
+        "country": "US",
+        "volume": "300 ml",
+        "alt": "Cranberry Ginger Fizz",
+        "photo": "https://hips.hearstapps.com/hmg-prod/images/cranberry-ginger-fizz-wide-6734efed6b898.jpg?crop=0.6663771891735418xw:1xh;center,top&resize=1200:*",
+        "description": "Cranberry Ginger Fizz is a sparkling mocktail made with cranberry juice, ginger ale, and a hint of lime. It has a tangy, slightly spicy flavor with effervescent bubbles for a festive, refreshing drink.",
+        "calories": "100 kcal"
+      }
+    ],
+    "aperitifs": [
+      {
+        "name": "Zero Proof Spritz",
+        "price": "$14",
+        "country": "US",
+        "volume": "250 ml",
+        "alt": "Zero Proof Spritz",
+        "photo": "https://cb.scene7.com/is/image/Crate/CB_dPLP_20250710_spritz?wid=2880&qlt=70&op_sharpen=1",
+        "description": "Zero Proof Spritz is a refreshing non-alcoholic take on the classic spritz, combining sparkling water, citrus flavors, and a hint of bitters. Light, bubbly, and perfect for summer afternoons.",
+        "calories": "90 kcal"
+      },
+      {
+        "name": "Ness & Malone Spritz",
+        "price": "$14",
+        "country": "US",
+        "volume": "250 ml",
+        "alt": "Ness & Malone Spritz",
+        "photo": "https://nypost.com/wp-content/uploads/sites/2/2025/01/ness-malone-spritz-red-one-96042613.jpg?quality=75&strip=all&w=1024",
+        "description": "Ness & Malone Spritz is a non-alcoholic sparkling aperitif with a perfect balance of fruity and herbal notes. It’s elegant, slightly bitter, and a great pre-dinner drink.",
+        "calories": "95 kcal"
+      },
+      {
+        "name": "Garden of Dreams",
+        "price": "$15",
+        "country": "US",
+        "volume": "250 ml",
+        "alt": "Garden of Dreams",
+        "photo": "https://www.stonyfellwines.com.au/wp-content/uploads/2024/10/STONYFELL_GARDEN-OF-DREAMS_01-NV.jpg",
+        "description": "Garden of Dreams is a sophisticated non-alcoholic aperitif infused with floral and botanical flavors. It’s light, aromatic, and ideal for a relaxing evening.",
+        "calories": "100 kcal"
+      },
+      {
+        "name": "Nibble Bitter Herb Mocktail",
+        "price": "$13",
+        "country": "IT",
+        "volume": "200 ml",
+        "alt": "Nibble Bitter Herb Mocktail",
+        "photo": "https://images.getrecipekit.com/20251202070243-non-20alcoholic-20black-20manhattan-20mocktail.jpg?aspect_ratio=1:1&quality=90&",
+        "description": "Nibble Bitter Herb Mocktail is a complex, herbaceous non-alcoholic drink with subtle bitter notes, inspired by classic Italian aperitifs. It’s crisp, refreshing, and sophisticated.",
+        "calories": "80 kcal"
+      },
+      {
+        "name": "Non‑Alcoholic Digestif Infusion",
+        "price": "$12",
+        "country": "FR",
+        "volume": "200 ml",
+        "alt": "Non‑Alcoholic Digestif Infusion",
+        "photo": "https://arbre-a-biere.fr/wp-content/uploads/2025/04/non-alcoholic-cocktails.jpg",
+        "description": "Non‑Alcoholic Digestif Infusion is a gentle, aromatic infusion of herbs and spices, designed to aid digestion after meals. Smooth, lightly sweet, and pleasantly warming.",
+        "calories": "70 kcal"
+      }
+    ],
+    "wines": [
+      {
+        "name": "Finca Las Moras Syrah",
+        "price": "$34",
+        "country": "AR",
+        "volume": "750 ml",
+        "alt": "Finca Las Moras Syrah",
+        "photo": "https://wineonline.ie/cdn/shop/files/Finca_Las_Moras_Syrah_3f84cb93-5748-4c7a-959b-c292ff3eefe9.jpg?v=1694706381",
+        "description": "Finca Las Moras Syrah is a bold Argentine red wine with rich notes of blackberries, plums, and a hint of pepper. Smooth tannins make it perfect for pairing with grilled meats or hearty dishes.",
+        "calories": "125 kcal per 150 ml"
+      },
+      {
+        "name": "Jacob's Creek Shiraz Cabernet",
+        "price": "$39",
+        "country": "AU",
+        "volume": "750 ml",
+        "alt": "Jacob's Creek Shiraz Cabernet",
+        "photo": "https://vinovino.com.ua/content/images/34/1200x1200l80mc0/vino-chervone-sukhe-jacobs-creek-classic-shiraz-cabernet-075-l-105-15-6-15098994897475.png",
+        "description": "Jacob's Creek Shiraz Cabernet is a classic Australian blend, offering flavors of dark berries, plum, and subtle oak. Medium-bodied with a smooth finish, it complements red meats and pasta dishes.",
+        "calories": "124 kcal per 150 ml"
+      },
+      {
+        "name": "Robert Mondavi Woodbridge Zinfandel",
+        "price": "$48",
+        "country": "US",
+        "volume": "750 ml",
+        "alt": "Robert Mondavi Woodbridge Zinfandel",
+        "photo": "https://content.okwine.ua/files/product/61b345366ebb0c2d53db6132/350x470/d2f47970-1129-11ea-bb93-11de92a9f42e.jpg.jpg",
+        "description": "Robert Mondavi Woodbridge Zinfandel is a rich Californian wine with ripe berry flavors, a hint of spice, and smooth, velvety tannins. Ideal for BBQs and pasta with tomato-based sauces.",
+        "calories": "126 kcal per 150 ml"
+      },
+      {
+        "name": "Casal Garcia Rosé",
+        "price": "$34",
+        "country": "PT",
+        "volume": "750 ml",
+        "alt": "Casal Garcia Rosé",
+        "photo": "https://casalgarcia.com/wp-content/uploads/2025/07/CASAL-GARCIA-ROSE-DROPS-scaled.webp",
+        "description": "Casal Garcia Rosé is a light, crisp Portuguese wine with floral aromas and fresh red fruit flavors. Perfect as an aperitif or paired with salads and seafood.",
+        "calories": "110 kcal per 150 ml"
+      },
+      {
+        "name": "Vega del Campo Verdejo",
+        "price": "$36",
+        "country": "ES",
+        "volume": "750 ml",
+        "alt": "Vega del Campo Verdejo",
+        "photo": "https://static.decanter.ru/image/242221-vino-vega-del-campo-verdejo-0-75-l-mb.jpg",
+        "description": "Vega del Campo Verdejo is a refreshing Spanish white wine with citrus, apple, and herbaceous notes. Crisp acidity makes it a great match for fish, light pasta, and fresh salads.",
+        "calories": "115 kcal per 150 ml"
+      }
+    ],
+    "warmDrinks": [
+      {
+        "name": "Cappuccino",
+        "price": "$5",
+        "country": "IT",
+        "volume": "250 ml",
+        "alt": "Cappuccino",
+        "photo": "https://dairyfarmersofcanada.ca/sites/default/files/image_file_browser/conso_recipe/2022/Capuccino.jpg",
+        "description": "Cappuccino is a classic Italian coffee drink made with equal parts espresso, steamed milk, and frothy milk foam. Rich, creamy, and aromatic, perfect for a morning boost.",
+        "calories": "120 kcal per 250 ml"
+      },
+      {
+        "name": "Latte",
+        "price": "$5.50",
+        "country": "IT",
+        "volume": "300 ml",
+        "alt": "Latte",
+        "photo": "https://www.cuisinart.com/dw/image/v2/ABAF_PRD/on/demandware.static/-/Sites-us-cuisinart-sfra-Library/default/dw42dcae51/images/recipe-Images/cafe-latte1-recipe_resized.jpg?sw=1200&sh=630",
+        "description": "Latte is a smooth Italian coffee beverage made with espresso and steamed milk, topped with a small layer of foam. Mild, creamy, and ideal for relaxing coffee breaks.",
+        "calories": "150 kcal per 300 ml"
+      },
+      {
+        "name": "Hot Chocolate",
+        "price": "$4.50",
+        "country": "US",
+        "volume": "300 ml",
+        "alt": "Hot Chocolate",
+        "photo": "https://bakerbynature.com/wp-content/uploads/2024/01/Hot-Chocolate-4.jpg",
+        "description": "Hot Chocolate is a comforting sweet drink made with rich cocoa, sugar, and milk. Perfect for cozy evenings, with a smooth and velvety texture.",
+        "calories": "210 kcal per 300 ml"
+      },
+      {
+        "name": "Matcha Latte",
+        "price": "$6",
+        "country": "JP",
+        "volume": "350 ml",
+        "alt": "Matcha Latte",
+        "photo": "https://iswari.s3.eu-west-3.amazonaws.com/blog/wxzaur-.jpg",
+        "description": "Matcha Latte is a Japanese green tea drink made with finely ground matcha powder and steamed milk. Earthy, vibrant, and slightly sweet, it’s a healthy energizing option.",
+        "calories": "130 kcal per 350 ml"
+      },
+      {
+        "name": "Herbal Tea",
+        "price": "$4",
+        "country": "UK",
+        "volume": "300 ml",
+        "alt": "Herbal Tea",
+        "photo": "https://www.treehugger.com/thmb/uWQw8MStw9Zetyqli_5F3qoS9Dc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tea-cup-with-several-dried-tea-leaves-and-flowers-1201496311-55f0a4dfdbc54605966a0a9ec2f40f3c.jpg",
+        "description": "Herbal Tea is a soothing caffeine-free drink made from a blend of dried herbs, flowers, and fruits. Refreshing, calming, and perfect for any time of day.",
+        "calories": "5 kcal per 300 ml"
+      }
+    ],
+    "soft drinks": [
+      {
+        "name": "Coca-Cola",
+        "price": "$3",
+        "country": "US",
+        "volume": "330 ml",
+        "alt": "Coca-Cola",
+        "photo": "https://images.unian.net/photos/2021_02/thumb_files/1200_0_1612944601-7571.jpg",
+        "description": "Coca-Cola is a classic carbonated soft drink with a sweet, refreshing taste and a hint of caramel flavor. Perfect for quenching thirst anytime.",
+        "calories": "140 kcal per 330 ml"
+      },
+      {
+        "name": "Pepsi",
+        "price": "$3",
+        "country": "US",
+        "volume": "330 ml",
+        "alt": "Pepsi",
+        "photo": "https://vctr.media/wp-content/uploads/2023/03/vctr.media-1680073583.webp",
+        "description": "Pepsi is a popular cola beverage with a slightly sweeter and citrusy flavor profile. Crisp, bubbly, and enjoyed worldwide.",
+        "calories": "150 kcal per 330 ml"
+      },
+      {
+        "name": "Fanta Orange",
+        "price": "$3",
+        "country": "DE",
+        "volume": "330 ml",
+        "alt": "Fanta Orange",
+        "photo": "https://i.pinimg.com/736x/e9/69/f2/e969f298dc5782e5867ec222c793d1ee.jpg",
+        "description": "Fanta Orange is a fruity, carbonated soft drink bursting with vibrant orange flavor. Sweet, refreshing, and perfect for a sunny day.",
+        "calories": "160 kcal per 330 ml"
+      },
+      {
+        "name": "Sprite",
+        "price": "$3",
+        "country": "US",
+        "volume": "330 ml",
+        "alt": "Sprite",
+        "photo": "https://www.gastronomiac.com/wp/wp-content/uploads/2021/11/Sprite-783x1030.jpg",
+        "description": "Sprite is a lemon-lime flavored soft drink with a crisp, clean taste. Light, bubbly, and ideal for cooling down on a hot day.",
+        "calories": "140 kcal per 330 ml"
+      },
+      {
+        "name": "Schweppes Tonic Water",
+        "price": "$3.50",
+        "country": "GB",
+        "volume": "330 ml",
+        "alt": "Schweppes Tonic Water",
+        "photo": "https://www.coca-cola.com/content/dam/onexp/za/en/schweppes-last-version/Schweppes_Desktop_1440x810.jpg",
+        "description": "Schweppes Tonic Water is a slightly bitter, carbonated beverage infused with quinine. Crisp, refreshing, and often used as a mixer in cocktails.",
+        "calories": "80 kcal per 330 ml"
+      }
+    ]
+  },
+  "smallHungers": {
+    "refreshments": [
+      {
+        "name": "Bruschetta",
+        "price": "$8",
+        "country": "IT",
+        "volume": "120 g",
+        "alt": "Bruschetta",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/2014_Bruschetta_The_Larder_Chiang_Mai.jpg",
+        "description": "Classic Italian appetizer with toasted bread rubbed with garlic and topped with fresh tomatoes, basil, and olive oil.",
+        "calories": "150 kcal per 120 g"
+      },
+      {
+        "name": "Caesar Salad",
+        "price": "$10",
+        "country": "US",
+        "volume": "200 g",
+        "alt": "Caesar Salad",
+        "photo": "https://cdn.loveandlemons.com/wp-content/uploads/2024/12/caesar-salad.jpg",
+        "description": "Crisp romaine lettuce tossed with Caesar dressing, croutons, and grated Parmesan cheese. A fresh and tangy favorite.",
+        "calories": "180 kcal per 200 g"
+      },
+      {
+        "name": "Garlic Bread",
+        "price": "$6",
+        "country": "IT",
+        "volume": "150 g",
+        "alt": "Garlic Bread",
+        "photo": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/classic_garlic_bread_84954_16x9.jpg",
+        "description": "Toasted bread with a rich garlic butter spread. Crispy on the outside and soft on the inside, perfect as a side or snack.",
+        "calories": "200 kcal per 150 g"
+      },
+      {
+        "name": "Caprese Salad",
+        "price": "$9",
+        "country": "IT",
+        "volume": "180 g",
+        "alt": "Caprese Salad",
+        "photo": "https://www.allrecipes.com/thmb/Usj7zOLJSQ5xqw-4dwWarvPNjJg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-228126-caprese-salad-with-balsamic-reduction-ddmfs-2644-4x3-f32ac2b2fb9d4234884a752490fb015b.jpg",
+        "description": "Fresh mozzarella, ripe tomatoes, and basil drizzled with balsamic reduction. A light, refreshing Italian salad.",
+        "calories": "160 kcal per 180 g"
+      },
+      {
+        "name": "Mozzarella Sticks",
+        "price": "$8",
+        "country": "US",
+        "volume": "150 g",
+        "alt": "Mozzarella Sticks",
+        "photo": "https://www.theedgyveg.com/wp-content/uploads/2021/10/DSC00893WEB.jpg",
+        "description": "Breaded and fried mozzarella cheese sticks served with marinara sauce. Gooey, cheesy, and deliciously crispy.",
+        "calories": "300 kcal per 150 g"
+      },
+      {
+        "name": "Chicken Wings",
+        "price": "$12",
+        "country": "US",
+        "volume": "200 g",
+        "alt": "Chicken Wings",
+        "photo": "https://www.lifeisbutadish.com/wp-content/uploads/2016/01/Crispy-Baked-Chicken-Wings-9.jpg",
+        "description": "Juicy chicken wings baked to perfection and tossed in a savory sauce. Perfect for sharing as an appetizer or snack.",
+        "calories": "400 kcal per 200 g"
+      },
+      {
+        "name": "Spring Rolls",
+        "price": "$9",
+        "country": "CN",
+        "volume": "180 g",
+        "alt": "Spring Rolls",
+        "photo": "https://saltedmint.com/wp-content/uploads/2024/01/Vegetable-Spring-Rolls-4-500x375.jpg",
+        "description": "Crispy rolls filled with fresh vegetables and served with a light dipping sauce. A crunchy and tasty appetizer.",
+        "calories": "250 kcal per 180 g"
+      },
+      {
+        "name": "Hummus with Pita",
+        "price": "$7",
+        "country": "LB",
+        "volume": "150 g",
+        "alt": "Hummus with Pita",
+        "photo": "https://plantbaes.com/wp-content/uploads/2025/03/Hummus-Pita-Bowl-7.jpg",
+        "description": "Creamy chickpea hummus served with warm pita bread. A smooth, protein-rich, and flavorful snack.",
+        "calories": "220 kcal per 150 g"
+      },
+      {
+        "name": "Stuffed Mushrooms",
+        "price": "$10",
+        "country": "FR",
+        "volume": "150 g",
+        "alt": "Stuffed Mushrooms",
+        "photo": "https://peasandcrayons.com/wp-content/uploads/2022/02/vegetarian-stuffed-mushrooms-recipe-peasandcrayons-.jpg",
+        "description": "Mushrooms filled with a savory mix of cheese, herbs, and breadcrumbs, baked to golden perfection.",
+        "calories": "180 kcal per 150 g"
+      },
+      {
+        "name": "Nachos with Cheese",
+        "price": "$11",
+        "country": "MX",
+        "volume": "250 g",
+        "alt": "Nachos with Cheese",
+        "photo": "https://coopercheese.com/cdn/shop/articles/20240315162137-nachos-perfectly-melty-2.webp?v=1713566273",
+        "description": "Crispy tortilla chips topped with melted cheese, jalapeños, and optional salsa. Perfectly cheesy and flavorful.",
+        "calories": "450 kcal per 250 g"
+      }
+    ],
+    "savoryMouthPleasure": [
+      {
+        "name": "Beef Sliders",
+        "price": "$14",
+        "country": "US",
+        "volume": "180 g",
+        "alt": "Beef Sliders",
+        "photo": "https://www.sargento.com/assets/Uploads/Recipe/Image/Website_Waygu_Sliders__FocusFillWyIwLjAwIiwiMC4wMCIsODAwLDQ3OF0_CompressedW10.jpg",
+        "description": "Mini beef burgers served on soft buns with cheese, lettuce, and a special sauce. Perfect for sharing or as a hearty snack.",
+        "calories": "450 kcal per 180 g"
+      },
+      {
+        "name": "Loaded Nachos",
+        "price": "$12",
+        "country": "MX",
+        "volume": "250 g",
+        "alt": "Loaded Nachos",
+        "photo": "https://www.seriouseats.com/thmb/ps9BzTDAJ6tXywJw_eSZxvV_xhE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20250430-SEA-UltimateSmokedNachos-LorenaMasso-Beauty1-35-a0d81f942b394edf9137f9b2f09269a4.jpg",
+        "description": "Crispy tortilla chips loaded with melted cheese, jalapeños, beans, and optional sour cream and salsa. A perfect appetizer for sharing.",
+        "calories": "500 kcal per 250 g"
+      },
+      {
+        "name": "Stuffed Jalapeños",
+        "price": "$10",
+        "country": "US",
+        "volume": "150 g",
+        "alt": "Stuffed Jalapeños",
+        "photo": "https://www.nordicware.com/wp-content/uploads/2021/05/stuffed_jalapenos_1.jpg",
+        "description": "Spicy jalapeños stuffed with cheese and baked until golden. A flavorful and slightly spicy appetizer.",
+        "calories": "250 kcal per 150 g"
+      },
+      {
+        "name": "Mini Quiches",
+        "price": "$11",
+        "country": "FR",
+        "volume": "180 g",
+        "alt": "Mini Quiches",
+        "photo": "https://www.recipetineats.com/tachyon/2019/09/Mini-Quiches-Featured-photo.jpg",
+        "description": "Individual baked quiches with a buttery crust filled with eggs, cheese, and vegetables. Perfect for brunch or as an appetizer.",
+        "calories": "320 kcal per 180 g"
+      },
+      {
+        "name": "Prosciutto & Melon",
+        "price": "$13",
+        "country": "IT",
+        "volume": "150 g",
+        "alt": "Prosciutto & Melon",
+        "photo": "https://tatyanaseverydayfood.com/wp-content/uploads/2023/07/Melon-Prosciutto-Crostini-with-Burrata-Recipe-1.jpg",
+        "description": "Sweet melon slices paired with thinly sliced prosciutto. A classic Italian appetizer balancing sweet and salty flavors.",
+        "calories": "180 kcal per 150 g"
+      },
+      {
+        "name": "Deviled Eggs",
+        "price": "$9",
+        "country": "US",
+        "volume": "120 g",
+        "alt": "Deviled Eggs",
+        "photo": "https://static01.nyt.com/images/2021/10/15/dining/aw-classic-deviled-eggs/aw-classic-deviled-eggs-googleFourByThree-v2.jpg",
+        "description": "Hard-boiled eggs filled with a creamy seasoned yolk mixture. A classic, savory, and tangy appetizer.",
+        "calories": "200 kcal per 120 g"
+      },
+      {
+        "name": "Calamari Rings",
+        "price": "$14",
+        "country": "IT",
+        "volume": "200 g",
+        "alt": "Calamari Rings",
+        "photo": "https://images.immediate.co.uk/production/volatile/sites/30/2021/07/Calamari-and-aioli-564ae54.jpg?resize=768,713",
+        "description": "Lightly battered and fried squid rings served with aioli. Crispy outside and tender inside, perfect as a seafood appetizer.",
+        "calories": "350 kcal per 200 g"
+      },
+      {
+        "name": "Charcuterie Board",
+        "price": "$18",
+        "country": "FR",
+        "volume": "250 g",
+        "alt": "Charcuterie Board",
+        "photo": "https://veronikaskitchen.com/wp-content/uploads/2021/11/Charcuterie-Board-1893.jpg",
+        "description": "An assortment of cured meats, cheeses, fruits, and nuts. Perfect for sharing and pairing with wine.",
+        "calories": "600 kcal per 250 g"
+      },
+      {
+        "name": "Spicy Chicken Bites",
+        "price": "$12",
+        "country": "US",
+        "volume": "200 g",
+        "alt": "Spicy Chicken Bites",
+        "photo": "https://cookingfrog.com/wp-content/uploads/2023/06/Longhorn-Spicy-Chicken-Bites.jpg",
+        "description": "Juicy chicken pieces tossed in a spicy sauce. Perfect for those who love a kick of heat in their appetizers.",
+        "calories": "400 kcal per 200 g"
+      },
+      {
+        "name": "Garlic Shrimp",
+        "price": "$15",
+        "country": "ES",
+        "volume": "200 g",
+        "alt": "Garlic Shrimp",
+        "photo": "https://casuallypeckish.com/wp-content/uploads/2020/09/Butter-garlic-prawns.jpg",
+        "description": "Shrimp sautéed in garlic and butter, seasoned with herbs. A flavorful and rich seafood appetizer.",
+        "calories": "350 kcal per 200 g"
+      }
+    ],
+    "pancakesAndWaffles": [
+      {
+        "name": "Classic Pancakes",
+        "price": "$8",
+        "country": "US",
+        "volume": "200 g",
+        "alt": "Classic Pancakes",
+        "photo": "https://i.cbc.ca/ais/1.5020044,1743711415000/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C3870%2C2176%29%3B",
+        "description": "Fluffy classic pancakes served with butter and maple syrup. A timeless breakfast favorite.",
+        "calories": "350 kcal per 200 g"
+      },
+      {
+        "name": "Blueberry Pancakes",
+        "price": "$9",
+        "country": "US",
+        "volume": "220 g",
+        "alt": "Blueberry Pancakes",
+        "photo": "https://www.kulickspancakerecipes.com/wp-content/uploads/2022/03/Blueberry-pancake-recipe-500x500.jpg",
+        "description": "Soft pancakes loaded with fresh blueberries and served with syrup. Sweet and fruity breakfast delight.",
+        "calories": "380 kcal per 220 g"
+      },
+      {
+        "name": "Chocolate Chip Pancakes",
+        "price": "$9",
+        "country": "US",
+        "volume": "220 g",
+        "alt": "Chocolate Chip Pancakes",
+        "photo": "https://www.laurafuentes.com/wp-content/uploads/2022/07/Chocolate-chip-pancakes_SQ-1.jpg",
+        "description": "Delicious pancakes filled with chocolate chips and served warm. Perfect for chocolate lovers.",
+        "calories": "400 kcal per 220 g"
+      },
+      {
+        "name": "Banana Pancakes",
+        "price": "$9",
+        "country": "US",
+        "volume": "220 g",
+        "alt": "Banana Pancakes",
+        "photo": "https://www.giallozafferano.com/images/273-27386/banana-pancake_1200x800.jpg",
+        "description": "Fluffy pancakes with sliced bananas and a drizzle of syrup. Sweet and satisfying breakfast option.",
+        "calories": "390 kcal per 220 g"
+      },
+      {
+        "name": "Strawberry Waffles",
+        "price": "$10",
+        "country": "BE",
+        "volume": "250 g",
+        "alt": "Strawberry Waffles",
+        "photo": "https://lynnswayoflife.com/wp-content/uploads/2023/04/strawberry-waffles-11.jpg",
+        "description": "Crispy Belgian waffles topped with fresh strawberries and cream. A sweet and fruity treat.",
+        "calories": "450 kcal per 250 g"
+      },
+      {
+        "name": "Belgian Waffles with Cream",
+        "price": "$11",
+        "country": "BE",
+        "volume": "250 g",
+        "alt": "Belgian Waffles with Cream",
+        "photo": "https://cupcakes-and-sarcasm.com/wp-content/uploads/2018/10/0CBB3C05-E91F-457F-B3D4-877FA6E04113.jpeg",
+        "description": "Classic Belgian waffles served with whipped cream. Light, fluffy, and perfect for breakfast or dessert.",
+        "calories": "460 kcal per 250 g"
+      },
+      {
+        "name": "Nutella Pancakes",
+        "price": "$10",
+        "country": "IT",
+        "volume": "220 g",
+        "alt": "Nutella Pancakes",
+        "photo": "https://insearchofyummyness.com/wp-content/uploads/2024/02/nutella-pancakes-featured-2024.jpg",
+        "description": "Soft pancakes generously spread with creamy Nutella. Rich and chocolatey indulgence.",
+        "calories": "450 kcal per 220 g"
+      },
+      {
+        "name": "Maple Syrup Waffles",
+        "price": "$10",
+        "country": "CA",
+        "volume": "250 g",
+        "alt": "Maple Syrup Waffles",
+        "photo": "https://wholeandheavenlyoven.com/wp-content/uploads/2015/12/Gingerbread-Chocolate-Chip-Waffles-with-Pecan-Maple-Syrup5.jpg",
+        "description": "Crispy waffles served with authentic maple syrup. Sweet, buttery, and quintessentially Canadian.",
+        "calories": "440 kcal per 250 g"
+      },
+      {
+        "name": "Cinnamon Apple Pancakes",
+        "price": "$10",
+        "country": "US",
+        "volume": "220 g",
+        "alt": "Cinnamon Apple Pancakes",
+        "photo": "https://hungryhealthyhappy.com/wp-content/uploads/2012/09/Apple-and-Cinnamon-Pancakes-featuredb.jpg",
+        "description": "Pancakes flavored with cinnamon and apple slices. Warm, spiced, and comforting breakfast option.",
+        "calories": "400 kcal per 220 g"
+      },
+      {
+        "name": "Chocolate Waffles",
+        "price": "$11",
+        "country": "BE",
+        "volume": "250 g",
+        "alt": "Chocolate Waffles",
+        "photo": "https://www.thespeckledpalate.com/wp-content/uploads/2024/03/The-Speckled-Palate-Chocolate-Chip-Waffles-Photo.jpg",
+        "description": "Belgian waffles infused with chocolate and served with a dusting of cocoa. Perfect for dessert lovers.",
+        "calories": "470 kcal per 250 g"
+      }
+    ],
+    "littleHunger": [
+      {
+        "name": "Avocado Toast",
+        "price": "$7",
+        "country": "US",
+        "volume": "130 g",
+        "alt": "Avocado Toast",
+        "photo": "https://gratefulgrazer.com/wp-content/uploads/2025/01/avocado-toast-square.jpg",
+        "description": "Toasted bread topped with creamy avocado, a sprinkle of salt, pepper, and optional chili flakes. Healthy and filling snack.",
+        "calories": "250 kcal per 130 g"
+      },
+      {
+        "name": "Mini Caprese Skewers",
+        "price": "$8",
+        "country": "IT",
+        "volume": "120 g",
+        "alt": "Mini Caprese Skewers",
+        "photo": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2021/06/Caprese-Skewers-main-1.jpg",
+        "description": "Cherry tomatoes, fresh mozzarella, and basil on skewers drizzled with balsamic glaze. A fresh and light appetizer.",
+        "calories": "200 kcal per 120 g"
+      },
+      {
+        "name": "Falafel Bites",
+        "price": "$7",
+        "country": "LB",
+        "volume": "150 g",
+        "alt": "Falafel Bites",
+        "photo": "https://cdn.mos.cms.futurecdn.net/6aDKd7jZrTi8iib6gqKjm8.jpg",
+        "description": "Crispy falafel balls made from chickpeas and herbs, perfect as a small snack or starter.",
+        "calories": "280 kcal per 150 g"
+      },
+      {
+        "name": "Mini Fish Tacos",
+        "price": "$9",
+        "country": "MX",
+        "volume": "130 g",
+        "alt": "Mini Fish Tacos",
+        "photo": "https://i.ytimg.com/vi/slP52WyCS5E/maxresdefault.jpg",
+        "description": "Small soft tacos filled with grilled fish, cabbage, and a tangy sauce. Perfect light Mexican snack.",
+        "calories": "270 kcal per 130 g"
+      },
+      {
+        "name": "Stuffed Bell Peppers",
+        "price": "$8",
+        "country": "ES",
+        "volume": "150 g",
+        "alt": "Stuffed Bell Peppers",
+        "photo": "https://www.allrecipes.com/thmb/YT42IgbDvUCYnjxj2ycN21Vr628=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-236359-beef-and-rice-stuffed-bell-peppers-DDMFS-4x3-beauty-dd9458de98884d4eb362354ee626d70e.jpg",
+        "description": "Bell peppers filled with a savory mixture of rice, vegetables, and spices. Light but satisfying snack.",
+        "calories": "260 kcal per 150 g"
+      },
+      {
+        "name": "Mini Sausage Rolls",
+        "price": "$7",
+        "country": "GB",
+        "volume": "120 g",
+        "alt": "Mini Sausage Rolls",
+        "photo": "https://realfood.tesco.com/media/images/1400x919-TESCO-MAG-OCT20-BWS-TooGoodToWaste-51758-FinestSausageRolls-RFO-RECIPE-328f090f-0430-4e0a-84b8-37c0b2dd8276-0-1400x919.jpg",
+        "description": "Flaky pastry filled with seasoned sausage meat, baked to golden perfection. Traditional British snack.",
+        "calories": "330 kcal per 120 g"
+      },
+      {
+        "name": "Cheese & Olive Platter",
+        "price": "$10",
+        "country": "FR",
+        "volume": "150 g",
+        "alt": "Cheese & Olive Platter",
+        "photo": "https://i.pinimg.com/736x/ea/9c/38/ea9c38b27a0c53f860e52d8c835d7067.jpg",
+        "description": "Selection of cheeses paired with olives. Perfect for light bites or sharing with friends.",
+        "calories": "320 kcal per 150 g"
+      },
+      {
+        "name": "Mini Veggie Spring Rolls",
+        "price": "$6",
+        "country": "CN",
+        "volume": "130 g",
+        "alt": "Mini Veggie Spring Rolls",
+        "photo": "https://i0.wp.com/s.lightorangebean.com/media/20240914144947/Thai-Veggie-Spring-Rolls_done.png?resize=480%2C270&quality=80&ssl=1",
+        "description": "Crispy spring rolls filled with vegetables. A light, crunchy snack perfect for sharing.",
+        "calories": "240 kcal per 130 g"
+      },
+      {
+        "name": "Mini Chicken Quesadillas",
+        "price": "$8",
+        "country": "MX",
+        "volume": "140 g",
+        "alt": "Mini Chicken Quesadillas",
+        "photo": "https://penderys.com/media/recipe/quesadillas.png",
+        "description": "Small tortillas filled with grilled chicken and cheese. Perfect Mexican snack or starter.",
+        "calories": "300 kcal per 140 g"
+      },
+      {
+        "name": "Mini Bruschetta with Mushrooms",
+        "price": "$7",
+        "country": "IT",
+        "volume": "120 g",
+        "alt": "Mini Bruschetta with Mushrooms",
+        "photo": "https://realfood.tesco.com/media/images/Garlicky-mushroom-bruschetta-with-pesto-HERO-edd27bf8-8509-4d66-9e1c-af241dbbab5c-0-472x310.jpg",
+        "description": "Toasted bread topped with sautéed mushrooms, garlic, and herbs. Flavorful Italian appetizer.",
+        "calories": "250 kcal per 120 g"
+      }
+    ]
+  }
+}
